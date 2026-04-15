@@ -1,0 +1,14 @@
+# University Cost Scraper — Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# HTTP requests
+requests==2.32.3
+
+# HTML parsing
+beautifulsoup4==4.12.3
+lxml==5.2.2          # Fast parser backend for BeautifulSoup
+
+# Google Gemini AI SDK (new unified SDK — replaces deprecated google-generativeai)
+google-genai==1.16.0
+
+# (Built-in — no install needed: json, csv, logging, pathlib, argparse, time)
